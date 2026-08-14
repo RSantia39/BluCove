@@ -283,14 +283,12 @@ label .close_btn {
 
 .section_container .services_items img {
     width: 100%;
+    border: 1px solid var(--secondary-color);
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
 }
 
 .section_container .services_items a img:hover {
-    width: 100%;
-    border-color: transparent;
-    outline: 1px solid var(--secondary-color);
     transform: scale(1.05);
 }
 
